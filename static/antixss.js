@@ -21,3 +21,4 @@ class AntiXSS {
     return String(str).replace(/&(?!amp;|lt;|gt;)/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 }
+

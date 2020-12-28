@@ -1,5 +1,5 @@
 ---
 applications:
- - name: GetStartedPython
-   random-route: true
-   memory: 128M
+  - name: test-rod
+    random-route: true
+    memory: 128M
